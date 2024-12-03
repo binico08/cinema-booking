@@ -33,6 +33,7 @@ const AdminDashboard = ({ users, movies, setMovies, showtimes, setShowtimes, boo
             </nav>
         </footer>
       </div>
+      
     );
 };
 
