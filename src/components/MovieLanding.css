@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #1c1c1c;
+  width: 100%;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.nav a {
+  color: #ffffff;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.search-button,
+.book-button {
+  margin-left: 10px;
+  padding: 10px 15px;
+  background-color: #ff4081;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.hero {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.featured-movies,
+.top-rated-movies {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.movie-cards,
+.top-movie-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.movie-card,
+.top-movie-card {
+  background-color: #2c2c2c;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+
+.movie-card img,
+.top-movie-card img {
+  width: 100%;
+  height: auto;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1c1c1c;
+  width: 100%;
+}
+
+.footer-nav a {
+  color: #ffffff;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.exclusive-offers {
+  background-color: #1c1c1c;
+  padding: 20px;
+  text-align: center;
+}

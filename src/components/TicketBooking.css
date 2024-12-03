@@ -1,0 +1,60 @@
+.ticket-booking-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.header {
+    width: 100%;
+    background-color: #1c1c1c;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.movie-selection, .showtime-selection, .booking-details {
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #050303;
+    width: 100%;
+}
+
+button.select, button.confirm {
+    margin: 5px;
+    padding: 10px;
+    background-color: #1b40b8;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.select:hover, button.confirm:hover {
+    background-color: #e63946;
+}
+
+.seat-selection {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.booking-summary {
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1c1c1c;
+    color: #ffffff;
+    width: 100%;
+}
+
